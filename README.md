@@ -12,6 +12,8 @@
 
 # Front end designs
 
+These are my first designs. You can guide me the right way.
+
 ![Page1](designs/Web1920.png)
 
 ![Page2](designs/Web19202.png)
