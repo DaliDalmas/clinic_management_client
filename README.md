@@ -12,7 +12,7 @@
 
 # Client designs
 
-!()[designs/Web 1920 – 1.png]
+![]('designs/Web 1920 – 1.png')
 
 ## Project setup
 ```
