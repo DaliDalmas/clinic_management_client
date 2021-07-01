@@ -22,7 +22,7 @@
 
 ![Page1](designs/Web19205.png)
 
-![Page1](designs/Web1920.png)
+![Page1](designs/Web19206.png)
 
 ## Project setup
 ```
