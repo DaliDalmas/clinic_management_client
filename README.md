@@ -4,7 +4,11 @@
 #### Javascript promises: 
 
 - <https://web.dev/promises/?gclid=CjwKCAjwrPCGBhALEiwAUl9X08B_SmjkG_c731Qg8Dl40p1KLlIap-5eqP0dxLkKHlJOxocJhIcDvhoCi-IQAvD_BwE>
+- <https://www.youtube.com/watch?v=DHvZLI7Db8E&ab_channel=WebDevSimplified>
 
+#### CSS Flex Box resources
+
+- <https://css-tricks.com/snippets/css/a-guide-to-flexbox/#background>
 
 
 
