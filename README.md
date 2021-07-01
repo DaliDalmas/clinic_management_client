@@ -10,7 +10,9 @@
 
 - <https://css-tricks.com/snippets/css/a-guide-to-flexbox/#background>
 
+# Client designs
 
+![](designs/Web 1920 – 1.png)
 
 ## Project setup
 ```
