@@ -1,32 +1,43 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+    <div class="side-pane"></div>
+    <img src="../public/stethoscope.png" alt="stethoscope" />
     <router-view />
   </div>
 </template>
 
 <style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  background: linear-gradient(to bottom right, #205c98, #1e5339);
+  min-height: 100vh;
+  display: flex;
 }
-
-#nav {
-  padding: 30px;
+img {
+  display: absolute;
+  height: 100vh;
+  min-width: 60vw;
+  margin: 2rem;
 }
+.side-pane {
+  background: rgb(255, 255, 255);
+  border-right: 2px #7C89C1;
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
+  display: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 15vw;
+  min-height: 100vh;
+  z-index: 100;
 }
 </style>
