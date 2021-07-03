@@ -1,11 +1,17 @@
 <template>
-  <div class="home"><LowerGlass /></div>
+  <div class="home">
+    <div class="head-clinic">CLINIC MANAGEMENT SYSTEM</div>
+    <div class="description-clinic">MANAGING AND KEEPING YOUR CLINIC DATA</div>
+    <SignupContainer />
+    <LowerGlass />
+  </div>
 </template>
 
 <script>
 import LowerGlass from "../components/lowerGlass.vue";
+import SignupContainer from "../components/signup.vue";
 export default {
   name: "Home",
-  components: { LowerGlass },
+  components: { LowerGlass, SignupContainer },
 };
 </script>

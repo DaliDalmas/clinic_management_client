@@ -64,4 +64,63 @@
   background: rgba(0, 0, 0, 0.103);
   backdrop-filter: blur(2rem);
 }
+
+.head-clinic {
+  color: #f8f5f5;
+  position: absolute;
+  left: 50%;
+  top: 1%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  transform: translateX(-50%);
+}
+.description-clinic {
+  padding: 0;
+  margin: 0;
+  color: #f8f5f5;
+  position: absolute;
+  font-family: "Poppins", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  top: 15%;
+  left: 65%;
+  width: 14vw;
+  text-align: left;
+  border-color: teal;
+  border-width: 1px;
+}
+.signup-container {
+  color: white;
+  position: absolute;
+  top: 27%;
+  left: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  z-index: 2;
+}
+.signup-container input {
+  margin-top: 1.5rem;
+  width: 27vw;
+  height: 5vh;
+  border-radius: 10px;
+  border: none;
+  padding: 1rem;
+  cursor: text;
+  font-family: "Poppin", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.2rem;
+}
+.input-coat {
+  position: relative;
+}
+.lable {
+  position: absolute;
+  height: 5vh;
+  color: black;
+  bottom: 0;
+  left: 0;
+}
 </style>

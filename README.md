@@ -12,7 +12,9 @@
 - <https://css-tricks.com/snippets/css/a-guide-to-flexbox/#background>
 
 #### Other resources
+
 - css glass effect <https://www.youtube.com/watch?v=O7WbVj5apxU&ab_channel=DevEd>
+- css input element animation <https://www.youtube.com/watch?v=IxRJ8vplzAo&t=207s&ab_channel=DevEd>
 
 # Front end designs
 
@@ -31,24 +33,29 @@ These are my first designs. You can guide me the right way.
 ![Page1](designs/Web19206.png)
 
 ## Project setup
+
 ```
 npm install
 ```
 
 ### Compiles and hot-reloads for development
+
 ```
 npm run serve
 ```
 
 ### Compiles and minifies for production
+
 ```
 npm run build
 ```
 
 ### Lints and fixes files
+
 ```
 npm run lint
 ```
 
 ### Customize configuration
+
 See [Configuration Reference](https://cli.vuejs.org/config/).
