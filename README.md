@@ -11,6 +11,9 @@
 
 - <https://css-tricks.com/snippets/css/a-guide-to-flexbox/#background>
 
+#### Other resources
+- css glass effect <https://www.youtube.com/watch?v=O7WbVj5apxU&ab_channel=DevEd>
+
 # Front end designs
 
 These are my first designs. You can guide me the right way.
