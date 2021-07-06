@@ -102,25 +102,91 @@
   justify-content: space-evenly;
   z-index: 2;
 }
-.signup-container input {
+.input-class {
   margin-top: 1.5rem;
   width: 27vw;
   height: 5vh;
   border-radius: 10px;
   border: none;
+  outline: none;
   padding: 1rem;
   cursor: text;
   font-family: "Poppin", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 1.2rem;
 }
+
 .input-coat {
   position: relative;
 }
 .lable {
+  font-family: "Poppin", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
   position: absolute;
   height: 5vh;
-  color: black;
+  color: rgb(36, 35, 35);
   bottom: 0;
-  left: 0;
+  left: 0em;
+  padding: 1rem;
+}
+
+.btn {
+  cursor: pointer;
+  background: rgba(0, 217, 255, 0.534);
+  margin-top: 1.5rem;
+  width: 27vw;
+  height: 5vh;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  transition: ease 0.5s;
+}
+.btn:active {
+  transform: scale(0.9);
+}
+.login {
+  width: 10vw;
+  position: absolute;
+  right: 8vw;
+  height: 4vh;
+  background: rgba(0, 217, 255, 0.205);
+  color: rgba(255, 255, 255, 0.555);
+  transition: ease 0.5s;
+}
+.login:hover {
+  background: rgba(0, 217, 255, 0.534);
+  color: white;
+  transform: scale(1.05);
+}
+
+.lable {
+  transition: ease 0.5s;
+  width: 100%;
+  text-align: left;
+  pointer-events: none;
+}
+.dates {
+  text-align: center;
+}
+.input-class:focus + .lable,
+.input-class:valid + .lable {
+  transform: translateY(-75%);
+  color: white;
+}
+.patients {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.middle-glass {
+  position: absolute;
+  min-height: 70vh;
+  min-width: 80vw;
+  background: rgba(0, 0, 0, 0.144);
+  backdrop-filter: blur(2rem);
+  transform: translateX(-25%);
 }
 </style>
