@@ -18,6 +18,7 @@
 import LowerGlass from "../components/lowerGlass.vue";
 import SignupContainer from "../components/signup.vue";
 import LoginContainer from "../components/login.vue";
+import axios from "axios";
 export default {
   name: "Home",
   components: { LowerGlass, SignupContainer, LoginContainer },
@@ -25,11 +26,25 @@ export default {
     return {
       signup: true,
       topButtonValue: "LOGIN",
+      sigup_url: "http://127.0.0.1:8000/user/management/register",
     };
   },
   methods: {
-    signUpFn() {
-      this.signup = false;
+    signUpFn(fname, lname, email, date, sex, position, pass1, pass2) {
+      if (pass1 != pass2) {
+        console.log("Psswords dont match");
+      } else {
+        axios.post(this.sigup_url, {
+          email: email,
+          password: pass1,
+          first_name: fname,
+          last_name: lname,
+          position: position,
+          gender: sex,
+          date_of_birth: date,
+        });
+        this.signup = false;
+      }
     },
     loginView() {
       this.signup = !this.signup;
