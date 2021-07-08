@@ -1,3 +1,3 @@
 <template>
-  <div class="middle-glass">This is the glass</div>
+  <div class="middle-glass"></div>
 </template>

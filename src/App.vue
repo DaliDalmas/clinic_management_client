@@ -189,4 +189,74 @@
   backdrop-filter: blur(2rem);
   transform: translateX(-25%);
 }
+.patients-container {
+  position: absolute;
+  height: 69vh;
+  min-width: 80vw;
+  transform: translateX(-25%);
+  z-index: 3;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  flex: 1 1 auto;
+  overflow-y: scroll;
+}
+.patient-card {
+  height: 200px;
+  width: 390px;
+  background: rgba(255, 255, 255, 0.5);
+  display: flex;
+  margin: 1rem;
+  border-radius: 10px;
+  color: black;
+  cursor: pointer;
+}
+.profile-image {
+  border-radius: 10px;
+  flex: 1;
+}
+.profile-content {
+  flex: 1;
+  border-radius: 10px;
+}
+.profile-content-top {
+  border-bottom: black;
+  border-style: solid;
+  border-width: 0 0 1px 0;
+}
+.profile-content-bottom {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  flex-direction: column;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.fnlname {
+  font-family: "Poppin", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.age {
+  font-family: "Poppin", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.patient-ribbon {
+  position: absolute;
+  top: 12%;
+  left: 0;
+  color: white;
+  z-index: 4;
+  background: red;
+  width: 80vw;
+  transform: translateX(-75%);
+  display: flex;
+  justify-content: space-between;
+  font-family: "Poppins", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
 </style>

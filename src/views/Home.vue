@@ -34,15 +34,19 @@ export default {
       if (pass1 != pass2) {
         console.log("Psswords dont match");
       } else {
-        axios.post(this.sigup_url, {
-          email: email,
-          password: pass1,
-          first_name: fname,
-          last_name: lname,
-          position: position,
-          gender: sex,
-          date_of_birth: date,
-        });
+        axios
+          .post(this.sigup_url, {
+            email: email,
+            password: pass1,
+            first_name: fname,
+            last_name: lname,
+            position: position,
+            gender: sex,
+            date_of_birth: date,
+          })
+          .then((res) => {
+            console.log(res);
+          });
         this.signup = false;
       }
     },
