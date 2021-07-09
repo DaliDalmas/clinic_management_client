@@ -196,11 +196,12 @@
   transform: translateX(-25%);
   z-index: 3;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   flex-wrap: wrap;
   flex: 1 1 auto;
   overflow-y: scroll;
 }
+
 .patient-card {
   height: 200px;
   width: 390px;
@@ -210,7 +211,12 @@
   border-radius: 10px;
   color: black;
   cursor: pointer;
+  transition: ease 0.5s;
 }
+.patient-card:hover {
+  transform: scale(1.1);
+}
+
 .profile-image {
   border-radius: 10px;
   flex: 1;
@@ -250,7 +256,6 @@
   left: 0;
   color: white;
   z-index: 4;
-  background: red;
   width: 80vw;
   transform: translateX(-75%);
   display: flex;
@@ -258,5 +263,56 @@
   font-family: "Poppins", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bold;
   font-size: 1.1rem;
+}
+.add-patient-button {
+  width: 20px;
+  height: 20px;
+  background: white;
+  margin: 0 0.5rem;
+  transform: translateY(5%);
+  position: relative;
+  transition: ease 0.5s;
+}
+.add-patient-button:hover {
+  transform: scale(1.1);
+}
+.register-patient {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.viertical-line {
+  position: absolute;
+  height: 16px;
+  width: 2px;
+  background: black;
+  left: 9px;
+  top: 1px;
+}
+.horizontal-line {
+  position: absolute;
+  height: 2px;
+  width: 16px;
+  background: black;
+  left: 2px;
+  top: 9px;
+}
+.logout-btn {
+  position: absolute;
+  top: 1rem;
+  left: 5rem;
+  cursor: pointer;
+  background: rgba(0, 217, 255, 0.534);
+  margin-top: 1.5rem;
+  width: 15vw;
+  height: 5vh;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  transition: ease 0.5s;
 }
 </style>

@@ -1,8 +1,17 @@
 <template>
   <div class="patients">
+
+    <input type="button" value="SIGN OUT" class="logout-btn" />
+
     <div class="patient-ribbon">
       <div>Patients</div>
-      <div>Register Patient</div>
+      <div class="register-patient">
+        Register Patient
+        <div class="add-patient-button">
+          <div class="viertical-line"></div>
+          <div class="horizontal-line"></div>
+        </div>
+      </div>
     </div>
     <div class="patients-container">
       <patientCard
@@ -28,4 +37,3 @@ export default {
   },
 };
 </script>
-

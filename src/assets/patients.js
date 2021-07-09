@@ -119,5 +119,26 @@ export default {
       age: "29",
       visits: "10",
     },
+    {
+      image: "https://i.pravatar.cc/200?img=19",
+      first_name: "Arimo",
+      last_name: "Otieno",
+      age: "23",
+      visits: "5",
+    },
+    {
+      image: "https://i.pravatar.cc/200?img=29",
+      first_name: "gilleele",
+      last_name: "Otieno",
+      age: "19",
+      visits: "9",
+    },
+    {
+      image: "https://i.pravatar.cc/200?img=30",
+      first_name: "Ogig",
+      last_name: "Otieno",
+      age: "24",
+      visits: "1",
+    },
   ],
 };
