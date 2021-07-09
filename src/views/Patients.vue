@@ -1,6 +1,5 @@
 <template>
   <div class="patients">
-
     <input type="button" value="SIGN OUT" class="logout-btn" />
 
     <div class="patient-ribbon">
